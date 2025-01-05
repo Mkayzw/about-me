@@ -1,1 +1,5 @@
 mkdir app 
+rm next.config.js 
+git add .
+git commit -m "Remove Next.js configuration"
+git push 
