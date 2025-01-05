@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+        </linearGradient>
+        <clipPath id="circleClip">
+            <circle cx="400" cy="300" r="200"/>
+        </clipPath>
+    </defs>
+    <rect width="100%" height="100%" fill="#1F2937"/>
+    <g clip-path="url(#circleClip)">
+        <!-- Background pattern -->
+        <rect width="100%" height="100%" fill="url(#grad4)" opacity="0.9"/>
+        <!-- Abstract shapes -->
+        <circle cx="400" cy="250" r="120" fill="#ffffff" opacity="0.1"/>
+        <circle cx="400" cy="250" r="80" fill="#ffffff" opacity="0.15"/>
+        <!-- Stylized person silhouette -->
+        <path d="M400 180 
+                 C430 180 460 210 460 250
+                 C460 290 430 320 400 320
+                 C370 320 340 290 340 250
+                 C340 210 370 180 400 180Z" 
+              fill="#ffffff" opacity="0.2"/>
+        <path d="M320 450
+                 C320 380 360 350 400 350
+                 C440 350 480 380 480 450
+                 L480 600 L320 600 Z" 
+              fill="#ffffff" opacity="0.2"/>
+    </g>
+    <!-- Decorative elements -->
+    <circle cx="200" cy="150" r="30" fill="#ffffff" opacity="0.05"/>
+    <circle cx="600" cy="450" r="40" fill="#ffffff" opacity="0.05"/>
+    <circle cx="150" cy="400" r="20" fill="#ffffff" opacity="0.05"/>
+    <circle cx="650" cy="200" r="25" fill="#ffffff" opacity="0.05"/>
+</svg> 

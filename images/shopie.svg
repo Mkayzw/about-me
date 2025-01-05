@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradShop" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="#1F2937"/>
+    <g transform="translate(200,100)">
+        <!-- Shopping Cart Icon -->
+        <rect x="50" y="100" width="300" height="200" rx="20" fill="url(#gradShop)" opacity="0.9"/>
+        
+        <!-- Cart Items -->
+        <g transform="translate(100,150)">
+            <rect x="0" y="0" width="200" height="40" rx="5" fill="#ffffff" opacity="0.2"/>
+            <rect x="0" y="60" width="200" height="40" rx="5" fill="#ffffff" opacity="0.15"/>
+            <circle cx="-20" cy="20" r="15" fill="#ffffff" opacity="0.3"/>
+            <circle cx="-20" cy="80" r="15" fill="#ffffff" opacity="0.3"/>
+        </g>
+        
+        <!-- Animated Payment Icons -->
+        <g transform="translate(150,50)">
+            <rect x="0" y="0" width="100" height="30" rx="15" fill="#ffffff" opacity="0.2">
+                <animate attributeName="opacity" values="0.2;0.4;0.2" dur="2s" repeatCount="indefinite"/>
+            </rect>
+        </g>
+    </g>
+    <text x="400" y="520" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">Shopie</text>
+</svg> 
